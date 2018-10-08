@@ -39,6 +39,7 @@ The release (resp. debug) executable is release/raytracer (resp. debug/raytracer
 A VS2015 solution is provided.
 Build the solution using the build menu.
 
+As is, the test_accelerator does nothing and the resulting image is black. You may use the -t option to render the image using the trivial_accelerator implementation (warning: this is **very** slow.)
 
 Running
 =======
@@ -51,4 +52,4 @@ The executable takes a few options:
   * -n _nspheres_ to specify the number of spheres to render (default is 20000)
   * -s _scale_ to specify the scaling factor of the spheres (default is 0.5)
   * -nt _nthreads_ to specify the number of rendering threads (default is 1)
-
+  * -t to render using the trivial_accelerator

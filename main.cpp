@@ -195,10 +195,9 @@ int main (int argc, char **argv)
 			output = argv[i+1];
 			++i;
 		}
-		if (opt == "-a" && i+1 < argc)
+		if (opt == "-t")
 		{
-			accel_type = argv[i+1];
-			++i;
+			accel_type = "trivial";
 		}
 		if (opt == "-nt" && i+1 < argc)
 		{
