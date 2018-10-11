@@ -21,8 +21,6 @@ Your implementation should be fairly simple, easy to read, and should behave pre
 
 You should not over-optimize, nor over-complexify.
 
-For reference, our implementations took us roughly 90 minutes to write, debug and test.
-
 
 Compiling
 =========
